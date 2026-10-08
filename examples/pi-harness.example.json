@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "lint": "npm run lint",
+    "typecheck": "npm run typecheck",
+    "unit": "npm test",
+    "integration": "npm run test:integration",
+    "build": "npm run build"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "pi-engineering-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable Pi workflows for feature development, review, debugging, and codebase explanation.",
+  "keywords": ["pi-package"],
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run-tests.mjs"
+  },
+  "pi": {
+    "extensions": ["./extensions/engineering-harness.ts"],
+    "skills": ["./skills"],
+    "prompts": ["./prompts/*.md"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
